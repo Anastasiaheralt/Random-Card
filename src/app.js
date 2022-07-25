@@ -32,3 +32,7 @@ window.wholeCard = function() {
   pullNumber();
   pullBothSuits();
 };
+
+window.onload = function() {
+  window.wholeCard();
+};
